@@ -1,0 +1,57 @@
+.heading-1 {
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-indent: 20px;
+    
+}
+
+.heading-2 {
+    color: green;
+        text-align: center;
+
+}
+
+.heading-3 {
+    color: red;
+        text-align: center;
+
+}
+
+.heading-4 {
+    color: purple;
+        text-align: center;
+
+}
+
+.heading-5 {
+    color: orange;
+        text-align: center;
+
+}
+
+.table-header {
+    background-color:red
+}
+
+.table-row {
+    background-color: yellow
+}
+
+.lead {
+    background-color: lightblue
+}
+
+input[type="text"] {
+    background-color: lightgray;
+}
+.paragraph {
+    font-size: 16px;
+   font-family: Arial, sans-serif;
+   font-weight: normal;
+   font-variant:small-caps;
+   color: #333;
+    
+}
