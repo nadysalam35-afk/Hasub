@@ -31,6 +31,11 @@
         text-align: center;
 
 }
+.heading-6 {
+    color: brown;
+        text-align: center;
+
+}
 
 .table-header {
     background-color:red
@@ -54,4 +59,121 @@ input[type="text"] {
    font-variant:small-caps;
    color: #333;
     
+}
+.container{
+    background-color: rgb(238, 144, 144);
+    
+    margin: 200px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
+.container2{
+   text-align: center;
+   background-image: url(ChatGPT\ Image\ 11\ أغسطس\ 2026،\ 03_48_12\ ص.png);
+    
+}
+a link {
+    color: blue;
+    text-decoration: underline;
+    background-color: lightyellow;
+}
+a :visited {
+    color: purple;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+a :hover {
+    color: red;
+    text-decoration: underline;
+    background-color: lightblue;
+}
+a :active {
+    color: orange;
+}
+ol {
+    list-style-type: decimal;
+}
+ul { 
+    list-style-type: disc;
+}
+table td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+table{
+    border-collapse: collapse;
+}
+ th{
+
+background-color: lightcyan;
+
+color: mediumslateblue;
+
+}
+form {
+    background-color: rgb(214, 221, 235);
+    padding: 20px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    margin: 20px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+}
+
+label {
+    color: rgb(114, 113, 113);
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 30%;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(24, 135, 209);
+    border: 1px solid rgb(98, 106, 175);
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.c1 {
+        display: inline-block;
+    height: 160px;
+    width: 160px;
+    border: 1px solid gray;
+    background-color: lavender;
+    display: inline
+}
+.c1:last-child {
+    position: fixed;
+    left: 40px;
+    top: 50px;
+    display: none;
+}
+#gta {
+    height: 900px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column
+}
+nav {
+    float: left;
+    width: 200px;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Regular.ttf') format('truetype');
+}
+.go {
+    font-family: 'Rubik', sans-serif;
+    color: red;
+    font-size: 24px;
+    direction: rtl;
 }
